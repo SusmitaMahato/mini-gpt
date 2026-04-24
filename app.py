@@ -1,5 +1,6 @@
 import streamlit as st
 import torch
+import random
 
 from src.model import GPTModel
 from src.tokenizer import WordTokenizer
@@ -10,6 +11,21 @@ from src.utils import generate_causal_mask
 # Load data
 text = load_data("data/input.txt")
 tokenizer = WordTokenizer(text)
+
+# 🔥 Build lookup table (IMPORTANT)
+pairs = {}
+lines = text.split("\n")
+
+for line in lines:
+    if "=>" in line:
+        parts = line.split("=>")
+        if len(parts) == 2:
+            inp = parts[0].strip().lower()
+            out = parts[1].strip()
+
+            if inp not in pairs:
+                pairs[inp] = []
+            pairs[inp].append(out)
 
 # Load model
 model = GPTModel(
@@ -29,30 +45,50 @@ st.title("Mini Chatbot 🤖")
 prompt = st.text_input("Type your message:")
 
 if st.button("Send"):
-    tokens = tokenizer.encode("User: " + prompt + " Bot:")
 
-    for _ in range(100):
-        x = torch.tensor(tokens).unsqueeze(0).to(device)
-        mask = generate_causal_mask(x.size(1)).to(device)
+    user_input = prompt.lower().strip()
 
-        logits = model(x, mask)
+    # ✅ 1. Exact match (MAIN FIX)
+    if user_input in pairs:
+        output = random.choice(pairs[user_input])
 
-        probs = torch.softmax(logits[0, -1] / 0.6, dim=-1)
+    else:
+        # ❗ fallback to model (for unknown inputs)
+        tokens = tokenizer.encode(user_input + " =>")
 
-        for t in set(tokens[-30:]):
-            probs[t] *= 0.1
+        for _ in range(50):
+            x = torch.tensor(tokens).unsqueeze(0).to(device)
+            mask = generate_causal_mask(x.size(1)).to(device)
 
-        top_k = 5
-        top_probs, top_indices = torch.topk(probs, top_k)
-        top_probs = top_probs / top_probs.sum()
+            logits = model(x, mask)
 
-        next_token = top_indices[torch.multinomial(top_probs, 1)].item()
-        tokens.append(next_token)
+            probs = torch.softmax(logits[0, -1] / 1.2, dim=-1)
 
-        # stop condition
-        decoded = tokenizer.decode(tokens)
-        if len(tokens) > 40 and decoded.count(".") >= 2:
-            break
+            # repetition penalty
+            for t in set(tokens[-10:]):
+                probs[t] *= 0.5
 
-    output = tokenizer.decode(tokens)
+            top_k = 5
+            top_probs, top_indices = torch.topk(probs, top_k)
+            top_probs = top_probs / top_probs.sum()
+
+            next_token = top_indices[torch.multinomial(top_probs, 1)].item()
+            tokens.append(next_token)
+
+            decoded = tokenizer.decode(tokens)
+
+            # stop early (important)
+            if len(decoded.split()) > 6:
+                break
+
+        output = tokenizer.decode(tokens)
+
+        if "=>" in output:
+            output = output.split("=>")[-1]
+
+        output = output.strip()
+
+        if output == "":
+            output = "I am not sure."
+
     st.write(output)

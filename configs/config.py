@@ -9,7 +9,7 @@ max_len = 256
 # Training
 batch_size = 4
 lr = 3e-4
-epochs = 250
+epochs = 300
 
 # Device
 import torch

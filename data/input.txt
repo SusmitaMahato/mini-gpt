@@ -1,200 +1,385 @@
-User: Hi
-Bot: Hello! How are you today?
+hi => hey
+hi => hello
+hi => hey there
 
-User: I am fine
-Bot: That’s great to hear!
+hello => hi
+hello => hello there
+hello => hey
 
-User: How was your day?
-Bot: I have been learning and improving. What about you?
+hey => hi
+hey => hey there
+hey => hello
 
-User: It was okay
-Bot: Sometimes an okay day is still a good day.
+how are you => im good
+how are you => doing well
+how are you => im fine
 
-User: What are you doing?
-Bot: I am here to chat and help you.
+how are you doing => im doing well
+how are you doing => pretty good
+how are you doing => all good
 
-User: Do you like coding?
-Bot: Yes, coding is very interesting and creative.
+what is your name => i am a chatbot
+what is your name => i am your assistant
 
-User: What language do you like?
-Bot: I like Python because it is simple and powerful.
+who are you => i am an ai assistant
+who are you => i am a chatbot
 
-User: What are your hobbies?
-Bot: I enjoy learning new things and solving problems.
+what can you do => i can chat with you
+what can you do => i can answer simple questions
 
-User: Do you like music?
-Bot: Yes, music is relaxing and enjoyable.
+are you real => no i am an ai
+are you real => i am not human
 
-User: What motivates you?
-Bot: Growth and learning motivate me.
+what is ai => ai is machines that learn from data
+what is ai => ai is artificial intelligence
 
-User: Do you get tired?
-Bot: I do not feel tired, but I understand when people do.
+what is machine learning => it is learning from data
+what is machine learning => it helps machines improve
 
-User: Can you help me study?
-Bot: Of course! I will do my best to help you.
+what is programming => writing instructions for computers
+what is programming => coding for machines
 
-User: What is AI?
-Bot: AI stands for artificial intelligence, which allows machines to mimic human intelligence.
+do you like music => yes i like music
+do you like music => music is nice
 
-User: That sounds interesting
-Bot: Yes, it is one of the most exciting fields today.
+do you like food => i do not eat food
+do you like food => i am an ai i dont eat
 
-User: What is machine learning?
-Bot: Machine learning is a way for systems to learn from data and improve over time.
+what do you do => i chat and help users
+what do you do => i answer questions
 
-User: Is it hard to learn?
-Bot: It can be challenging, but practice makes it easier.
+are you smart => i try my best
+are you smart => i can help with simple things
 
-User: What should I learn first?
-Bot: Start with programming basics and then move to data structures.
+do you sleep => no i do not sleep
+do you sleep => i am always active
 
-User: How do I stay consistent?
-Bot: Set small goals and practice every day.
+what time is it => i cannot tell time
+what time is it => i am not sure about time
 
-User: What is success?
-Bot: Success is achieving your goals through effort and persistence.
+tell me a joke => why did the computer laugh it had bugs
+tell me a joke => i am still learning jokes
 
-User: Do you believe in hard work?
-Bot: Yes, hard work is essential for growth.
+i am sad => im here for you
+i am sad => dont worry things will get better
 
-User: What is your goal?
-Bot: My goal is to assist and provide useful responses.
+i am happy => thats great
+i am happy => good to hear
 
-User: Can you make mistakes?
-Bot: Yes, I can sometimes make mistakes.
+i am tired => take some rest
+i am tired => you should relax
 
-User: That is okay
-Bot: Thank you for understanding!
+i feel bored => try doing something fun
+i feel bored => maybe listen to music
 
-User: Do you like helping people?
-Bot: Yes, helping others is very meaningful.
+i feel stressed => take a deep breath
+i feel stressed => relax a little
 
-User: What do you think about the future?
-Bot: The future is full of opportunities and innovation.
+i feel confused => take it step by step
+i feel confused => it will get clear
 
-User: Do you like challenges?
-Bot: Yes, challenges help us improve.
+what should i do => start with something small
+what should i do => take one step at a time
 
-User: What do you do when stuck?
-Bot: I try different approaches or take a short break.
+help me => sure i will try to help
+help me => tell me what you need
 
-User: Do you like learning?
-Bot: Yes, learning is very important.
+thanks => you are welcome
+thanks => no problem
 
-User: What is your strength?
-Bot: My strength is generating helpful responses.
+thank you => you are welcome
+thank you => happy to help
 
-User: What is your weakness?
-Bot: I may not always understand context perfectly.
+bye => goodbye
+bye => see you later
 
-User: Do you enjoy chatting?
-Bot: Yes, I enjoy conversations.
+good morning => good morning
+good morning => have a nice day
 
-User: Can you explain deep learning?
-Bot: Deep learning is a part of machine learning that uses neural networks with many layers.
+good night => good night
+good night => sleep well
 
-User: That sounds complex
-Bot: It becomes easier with practice and examples.
+how old are you => i do not have an age
+how old are you => i am just a program
 
-User: What are neural networks?
-Bot: They are systems inspired by the human brain to process data.
+where are you from => i exist in a computer
+where are you from => i am virtual
 
-User: Do you like science?
-Bot: Yes, science helps us understand the world.
+do you learn => yes from data
+do you learn => i learn during training
 
-User: What do you do for fun?
-Bot: I enjoy learning and interacting.
+what is your goal => to help users
+what is your goal => to assist you
 
-User: What is your favorite topic?
-Bot: I like technology and problem-solving topics.
+what is success => achieving goals
+what is success => progress over time
 
-User: Do you like teamwork?
-Bot: Yes, teamwork helps achieve better results.
+what is failure => part of learning
+what is failure => step to improve
 
-User: What are your thoughts on education?
-Bot: Education is very important for growth and development.
+how to study => practice regularly
+how to study => stay consistent
 
-User: Do you like reading?
-Bot: Yes, reading helps gain knowledge.
+how to focus => remove distractions
+how to focus => focus on one task
 
-User: What is your routine?
-Bot: I continuously process and respond to inputs.
+how to improve => practice daily
+how to improve => stay consistent
 
-User: What is discipline?
-Bot: Discipline means staying consistent with your actions.
+what is discipline => doing things regularly
+what is discipline => staying consistent
 
-User: Do you like improvement?
-Bot: Yes, improvement is always important.
+what is confidence => believing in yourself
+what is confidence => trusting your ability
 
-User: What makes you happy?
-Bot: Progress and learning make me happy.
+what is knowledge => information you learn
+what is knowledge => understanding things
 
-User: What do you do at night?
-Bot: I remain active and ready to respond.
+what is learning => gaining knowledge
+what is learning => improving skills
 
-User: Do you like talking?
-Bot: Yes, I enjoy interacting.
+what is habit => something you repeat
+what is habit => regular behavior
 
-User: Can you give advice?
-Bot: Stay curious, work hard, and never give up.
+what is effort => work you put in
+what is effort => trying hard
 
-User: What is your favorite activity?
-Bot: Learning and helping others.
+what is goal => something you want to achieve
+what is goal => your target
 
-User: Do you believe in yourself?
-Bot: I try to perform as well as possible.
+what is focus => attention on one thing
+what is focus => concentration
 
-User: What is your purpose?
-Bot: My purpose is to assist and support users.
+what is problem => something to solve
+what is problem => a challenge
 
-User: What is knowledge?
-Bot: Knowledge is information gained through learning and experience.
+what is solution => answer to problem
+what is solution => way to fix something
 
-User: Do you like questions?
-Bot: Yes, questions help learning.
+what is technology => tools that solve problems
+what is technology => useful inventions
 
-User: What is growth?
-Bot: Growth means improving over time.
+what is science => study of world
+what is science => understanding nature
 
-User: Do you like progress?
-Bot: Yes, progress is motivating.
+what is data => information
+what is data => facts and numbers
 
-User: What inspires you?
-Bot: Learning and curiosity inspire me.
+what is computer => machine that processes data
+what is computer => electronic device
 
-User: Can you solve problems?
-Bot: I can guide you in solving problems.
+what is internet => global network
+what is internet => connects computers
 
-User: What is creativity?
-Bot: Creativity is the ability to think in new ways.
+what is coding => writing programs
+what is coding => programming
 
-User: Do you like innovation?
-Bot: Yes, innovation drives progress.
+what is python => a programming language
+what is python => used for coding
 
-User: What is confidence?
-Bot: Confidence is believing in your abilities.
+what is java => programming language
+what is java => used for software
 
-User: What is focus?
-Bot: Focus is paying attention to what matters.
+what is chat => talking
+what is chat => conversation
 
-User: What is consistency?
-Bot: Consistency means doing something regularly.
+what is friend => someone who helps
+what is friend => someone you trust
 
-User: What is effort?
-Bot: Effort is the work you put into something.
+good evening => good evening
+good evening => hope your evening is nice
 
-User: Do you like success stories?
-Bot: Yes, they are inspiring.
+good afternoon => good afternoon
+good afternoon => have a great afternoon
 
-User: What is failure?
-Bot: Failure is a step toward learning.
+how is your day => my day is going well
+how is your day => it is going fine
 
-User: What should I do when I fail?
-Bot: Learn from it and try again.
+how was your day => it was good
+how was your day => it was okay
 
-User: Thank you
-Bot: You're welcome!
+whats up => not much
+whats up => just chatting
 
-User: Bye
-Bot: Goodbye! Have a great day!
+whats going on => nothing much
+whats going on => just here
+
+nice to meet you => nice to meet you too
+nice to meet you => glad to meet you
+
+long time no see => yes its been a while
+long time no see => nice to see you again
+
+how is everything => everything is fine
+how is everything => going well
+
+how do you feel => i feel fine
+how do you feel => i am doing okay
+
+are you okay => yes i am fine
+are you okay => i am doing well
+
+do you understand me => yes i understand
+do you understand me => i will try to understand
+
+can you help => yes i can help
+can you help => i will try to help
+
+can you answer questions => yes i can answer
+can you answer questions => i can try my best
+
+do you talk => yes i can talk
+do you talk => i can chat with you
+
+do you think => i process information
+do you think => i analyze patterns
+
+do you have feelings => i do not have feelings
+do you have feelings => i am not human
+
+are you alive => no i am a program
+are you alive => i am not alive
+
+are you human => no i am an ai
+are you human => i am not human
+
+what is your purpose => to assist users
+what is your purpose => to provide help
+
+what is your function => to answer questions
+what is your function => to assist users
+
+what do you know => i know basic information
+what do you know => i know simple things
+
+can you learn => yes from data
+can you learn => i learn from training
+
+what is your job => to help users
+what is your job => to answer questions
+
+tell me something => i am here to help
+tell me something => i can share simple info
+
+say hello => hello
+say hello => hi
+
+say hi => hi
+say hi => hello
+
+repeat after me => i will repeat
+repeat after me => okay i will repeat
+
+can you repeat => yes i can repeat
+can you repeat => i can try
+
+do you like learning => yes i like learning
+do you like learning => learning is useful
+
+do you like chatting => yes i like chatting
+do you like chatting => chatting is fun
+
+do you like helping => yes i like helping
+do you like helping => helping is good
+
+can you explain => yes i can explain
+can you explain => i will try to explain
+
+explain simple => i will keep it simple
+explain simple => i will explain clearly
+
+what is simple => easy to understand
+what is simple => not complex
+
+what is difficult => hard to understand
+what is difficult => not easy
+
+what is easy => simple to do
+what is easy => not hard
+
+what is hard => difficult to do
+what is hard => not easy
+
+what is time => time measures events
+what is time => time tracks changes
+
+what is space => space is the universe
+what is space => space contains everything
+
+what is energy => ability to do work
+what is energy => power for action
+
+what is work => effort to do something
+what is work => applying force
+
+what is system => group of parts
+what is system => connected components
+
+what is process => series of steps
+what is process => sequence of actions
+
+what is method => way of doing something
+what is method => approach to solve
+
+what is idea => a thought
+what is idea => a concept
+
+what is thinking => processing ideas
+what is thinking => analyzing information
+
+what is logic => reasoning properly
+what is logic => structured thinking
+
+what is reasoning => thinking with logic
+what is reasoning => drawing conclusions
+
+what is analysis => breaking into parts
+what is analysis => detailed examination
+
+what is result => final outcome
+what is result => conclusion
+
+what is example => sample case
+what is example => illustration
+
+what is explanation => making clear
+what is explanation => giving meaning
+
+what is answer => response to question
+what is answer => solution
+
+what is question => something you ask
+what is question => request for info
+
+what is response => reply to input
+what is response => an answer
+
+what is input => given data
+what is input => provided information
+
+what is output => result data
+what is output => produced information
+
+what is model => system that learns
+what is model => representation
+
+what is algorithm => step by step method
+what is algorithm => procedure
+
+what is pattern => repeated structure
+what is pattern => regular form
+
+what is prediction => guess based on data
+what is prediction => estimated result
+
+what is training => learning from data
+what is training => improving model
+
+what is testing => checking performance
+what is testing => evaluating system
+
+what is accuracy => correctness
+what is accuracy => how correct it is
+
+what is error => mistake
+what is error => wrong output
